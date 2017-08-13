@@ -82,6 +82,9 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Welcome
 --------------------------------------------------------------*/
+#hero h2 {
+  font-family: 'Black Ops One', cursive;
+}
 #hero {
   display: table;
   width: 100%;
@@ -411,7 +414,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #mobile-nav ul .menu-has-children i {
   position: absolute;
-  right: 0;
+  left: 0;
   z-index: 99;
   padding: 15px;
   cursor: pointer;
